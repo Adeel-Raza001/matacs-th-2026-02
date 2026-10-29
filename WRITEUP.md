@@ -72,3 +72,5 @@ A person reviews at four points:
 - Proposal C is flagged and not ranked, because the embedded instruction is an integrity concern. An alternative is to score its genuine content and show it in the flagged list for the reviewer to decide. I chose the safer option.
 - Scoring tiers (for example installs: 12+ = 100, 8 to 11 = 80) are my own example. In the real tool, the admin would set them.
 - Expected scores for A and E in ranking.json come from this formula: A about 98.8 and E about 92.4.
+
+- Price and timeline scores are relative to the proposals being scored; flagged proposals are excluded from the benchmark and scores are recalculated if a flagged proposal is later cleared.
