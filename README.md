@@ -10,7 +10,7 @@ AI extracts facts from proposals with exact quotes. Code applies mandatory check
 
 ## How I used AI tools
 
-I used Claude to help me understand the brief, plan the design and draft the files, and I built the diagram myself in draw.io. [Yahan ek sachi baat likho jahan tumne AI se ikhtilaf kiya ya usay badla, 1-2 sentences, aur kyun.]
+I used Claude to help me understand the brief, plan the design and draft the files, and I built the diagram myself in draw.io. While working through the scoring formula, Claude first described Proposal A's price as the lowest in the set, but Proposal D's price is actually lower. D was left out of the benchmark because it is flagged and not scored. Claude pointed this out itself when showing the calculation. I reviewed the effect (A's price score drops slightly but the ranking stays A, then E) and added an assumption to WRITEUP.md that price and timeline scores are relative to the scored proposals only, and are recalculated if a flagged proposal is cleared.
 
 ## Files
 
